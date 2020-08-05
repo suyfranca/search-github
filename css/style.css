@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2a9fff;
+  border: none;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+input {
+  border: none;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+main {
+  background-color: #EEECF1;
+  height: 100vh;
+}
+
+.header {
+  background-color: #000;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img {
+  height: 50px;
+  width: 300px;
+}  
+
+.formGit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formGit__field {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.formGit__item {
+  border-radius: 3px;
+  box-shadow: 0.8px 0.8px 0.8px rgba(0, 0, 0, .3);
+  height: 40px;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+
+.avatarContent {
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  border: none;
+  height: 200px;
+  width: 200px;
+}
+
+@media (min-width:500px){
+  .formGit__field{
+    width: 55%;
+  }
+}
+
+@media (min-width: 600px){
+  .header__img {
+    height: 70px;
+    width: 370px;
+  }  
+}
+
+@media (min-width: 700px){
+  .header__img {
+    height: auto;
+    width: auto;
+  } 
+  .formGit__item{
+    font-size: 18px;
+    height: 50px;
+  }
+  .avatar {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (min-width: 900px){
+  .formGit__field{
+    width: 35%;
+  }
+}

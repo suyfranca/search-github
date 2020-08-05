@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Search Github</title>
+</head>
+
+<body>
+  <header class="header" data-js="header">
+    <img src="image/logo.png" class="header__img" alt="logo Search Github" />
+  </header>
+
+  <main>
+    <section>
+      <form action="#" class="formGit" method="GET">
+        <div class="formGit__field">
+          <input 
+            type="text" 
+            name="userName" 
+            placeholder="user" 
+            data-js="user-name" 
+            class="formGit__item" 
+            value="" 
+          />
+          <button type="submit" class="formGit__item" data-js="btn">Pesquisar</button>
+        </div>
+      </form>
+      <article class="infos" data-js="infos"></article>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
